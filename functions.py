@@ -1,3 +1,4 @@
+# defining a function
 def print_lyrics():
     print("she said do you love me")
     print("I told her only partly")
@@ -5,3 +6,12 @@ def print_lyrics():
 
 
 print_lyrics()
+
+
+# using a function in another function
+def repeat_lyrics():
+    print_lyrics()
+    print_lyrics()
+
+
+repeat_lyrics()
