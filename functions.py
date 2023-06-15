@@ -25,3 +25,9 @@ def print_twice(username):
 
 
 print_twice("milbnk")
+
+# using a variable
+
+dummy_username = "bigdon"
+
+print_twice(dummy_username)
