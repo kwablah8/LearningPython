@@ -48,3 +48,10 @@ line1 = "Hello"
 line2 = "kitty"
 
 cat_twice(line1, line2)
+
+# stack diagrams
+##
+
+# Fruitful functions and void functions
+# fruitful function: a function that returns a value
+# void function: a function that alwas returns none
