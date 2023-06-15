@@ -31,3 +31,20 @@ print_twice("milbnk")
 dummy_username = "bigdon"
 
 print_twice(dummy_username)
+
+
+# variables and parameters are local
+
+def cat_twice(part1, part2):
+    cat = part1 + part2
+    print_twice(cat)
+
+
+cat_twice("Hello", "kitty")
+
+# OR
+
+line1 = "Hello"
+line2 = "kitty"
+
+cat_twice(line1, line2)
