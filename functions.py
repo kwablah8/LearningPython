@@ -1,8 +1,8 @@
 # defining a function
 def print_lyrics():
     print("she said do you love me")
-    print("I told her only partly")
-    print("I only love my bed and my mama I'm sorry")
+    print("I tell her only partly")
+    print("I only love my bed and my momma I'm sorry")
 
 
 print_lyrics()
@@ -15,3 +15,13 @@ def repeat_lyrics():
 
 
 repeat_lyrics()
+
+
+# Parameters and arguments
+
+def print_twice(username):
+    print(username)
+    print(username)
+
+
+print_twice("milbnk")
