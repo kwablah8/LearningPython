@@ -14,6 +14,6 @@ def polygon(t, length, n):
         t.lt(angle)
 
 
-polygon(bob, 50, 6)
+polygon(bob, 60, 6)
 
 turtle.mainloop()
