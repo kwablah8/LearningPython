@@ -8,3 +8,8 @@ def get_pay(num_hours):
     # After-tax pay based on 12% tax bracket
     pay_aftertax = pay_pretax * (1 - 0.12)
     return pay_aftertax
+
+
+# Calculate based on working 40 hours
+pay_fulltime = get_pay(40)
+print(pay_fulltime)
