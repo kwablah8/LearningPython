@@ -1,4 +1,5 @@
 # program to evalute temperature and tell if person is normal or feverish
+# Using if conditional statement
 
 
 def evaluate_temp(temp):
