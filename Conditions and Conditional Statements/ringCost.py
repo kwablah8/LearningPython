@@ -8,3 +8,7 @@ def get_cost(engraving, solid_gold):
     else:
         cost = 50 + 7 * len(engraving)
     return cost
+
+
+total_cost = get_cost("Hello", True)
+print(total_cost)
