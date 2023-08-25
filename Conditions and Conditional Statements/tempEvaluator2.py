@@ -8,3 +8,7 @@ def evaluate_temp_using_else(temp):
     else:
         message = "Your temperature is normal"
     return message
+
+
+check_temp = evaluate_temp_using_else(39)
+print(check_temp)
