@@ -8,3 +8,7 @@ def evaluate_temp(temp):
     if temp > 38:
         message = "You have a fever"
     return message
+
+
+check_temp = evaluate_temp(35)
+print(check_temp)
