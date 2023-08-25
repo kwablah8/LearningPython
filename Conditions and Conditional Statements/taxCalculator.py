@@ -7,3 +7,7 @@ def get_tax(earnings):
     else:
         tax_owed = .30 * earnings
     return tax_owed
+
+
+check_tax = get_tax(120000)
+print("Tax owed is ", check_tax)
