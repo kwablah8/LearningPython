@@ -16,3 +16,7 @@ def get_dose(weight):
     else:
         dose = 10
     return dose
+
+
+dosage = get_dose(12)
+print(dosage)
