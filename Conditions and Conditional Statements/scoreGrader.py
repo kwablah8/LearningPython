@@ -11,3 +11,7 @@ def get_grade(score):
     elif score <= 89:
         grade = "B"
     return grade
+
+
+show_grade = get_grade(75)
+print(show_grade)
