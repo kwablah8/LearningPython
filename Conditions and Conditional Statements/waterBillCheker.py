@@ -10,3 +10,7 @@ def get_water_bill(num_gallons):
     else:
         bill = (num_gallons / 1000) * 10
     return bill
+
+
+monthly_bill = get_water_bill(18000)
+print("Your monthly water bill is: ", monthly_bill)
