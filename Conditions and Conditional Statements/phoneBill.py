@@ -8,3 +8,7 @@ def get_phone_bill(gb):
         new_bill = overuse * 100
         bill = new_bill + 100
     return bill
+
+
+monthly_bill = get_phone_bill(12)
+print("Your monthly phone bill is: ", monthly_bill)
